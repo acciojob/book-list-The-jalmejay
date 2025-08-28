@@ -4,11 +4,46 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
 	<h1 class=heading>My<span class="book">Book</span>List</h1>
+	<div class="form-group">
+		
+		<div>
+			<label for="title" >Title</label><br/>
+			<input class="form-input" type="text" id="title"/>
+		</div>
+		<div>
+			<label for="author" >Author</label><br/>
+			<input class="form-input" type="text" id="author"/>
+		</div>
+		<div>
+			<label for="isbn" >ISBN#</label><br/>
+			<input class="form-input" type="text" id="isbn"/>
+		</div>
+			<button type="button" id="submit"  >submit</button>
+	</div>
+	<table class="table-striped">
+		<thead>
+			<tr>
+				<th>Title</th>
+				<th>Author</th>
+				<th>ISBN#</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody id="book-list">
+			<!-- <tr>
+				<td>Title</td>
+				<td>Author</td>
+				<td>ISBN#</td>
+				<td><button class="delete-btn">X</button></td>
+			</tr> -->
+		</tbody>
+	</table>
 	
     <script type="text/javascript" src="./script.js">
 </script>
