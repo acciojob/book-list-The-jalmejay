@@ -17,7 +17,13 @@
 	padding: 5px 15px;
 	margin-top:5px;
 	border:none;
-	border-radius:5px
+	border-radius:5px;
+	cursor:pointer;
+}
+#submit:hover{
+	background-color: darkblue;
+	border-radius:50%;
+	transition:0.5s;
 }
 .table-striped{
 	width:100%;
@@ -35,7 +41,7 @@
 	padding:8px;
 }
 
-.delete-btn {
+.delete {
     background-color: red;
     color: white;
     border: none;
@@ -44,7 +50,7 @@
 	border-radius:5px;
 }
 
-.delete-btn:hover {
+.delete:hover {
     background-color: darkred;
 	border-radius:50%;
 	transition:0.5s;

@@ -1,10 +1,10 @@
 //your JS code here. If required.https://www.svgrepo.com/show/345221/three-dots.svg
 let titleInput=document.getElementById("title");
 let authorInput=document.getElementById("author");
-let isbnTnput=document.getElementById("isbn");
+let isbnInput=document.getElementById("isbn");
 let submitbut=document.getElementById("submit");
 let tablebody=document.getElementById("book-list");
-
+console.log(submitbut);
 submitbut.addEventListener("click",function(){
 	const title = titleInput.value.trim();
     const author = authorInput.value.trim();
@@ -35,7 +35,7 @@ function addBookToTable(title,author,isbn) {
 	let deleteCell=document.createElement("td");
 	let deleteButton=document.createElement("button");
 	deleteButton.textContent="x";
-	deleteButton.setAttribute("class","delete-btn");
+	deleteButton.setAttribute("class","delete");
 	deleteButton.onclick=()=>{row.remove()};
 
 	deleteCell.appendChild(deleteButton);
