@@ -1,6 +1,6 @@
 //your JS code here. If required.https://www.svgrepo.com/show/345221/three-dots.svg
-let titleInput=document.getElemenhttps://www.svgrepo.com/show/345221/three-dots.svghttps://www.svgrepo.com/show/345221/three-dots.svgtById("title");
-let authorInput=document.getElemenhttps://www.svgrepo.com/show/345221/three-dots.svgtById("author");
+let titleInput=document.getElementById("title");
+let authorInput=document.getElementById("author");
 let isbnTnput=document.getElementById("isbn");
 let submitbut=document.getElementById("submit");
 let tablebody=document.getElementById("book-list");
